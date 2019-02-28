@@ -1,0 +1,2 @@
+# checkersPosition
+homework "checkers" 
