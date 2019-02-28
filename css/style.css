@@ -1,0 +1,251 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	border: 20px solid brown;
+width: 840px;
+height: 840px;
+}
+
+.pos{
+	height: 800px;
+	width: 800px;
+	margin: 0 auto;
+	background: #000;
+	position: relative;
+}
+
+.cell{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: #fff;
+}
+/*horisontal*/
+
+.hor1 .cell.one{
+	
+	left:100px;
+}
+
+.hor1 .cell.two{
+	left:300px;
+}
+
+.hor1 .cell.three{
+	left:500px;
+}
+
+.hor1 .cell.four{
+	left: 700px;
+}
+
+.hor1 > div::before{
+	content: '';
+	background-image: url(../images/white.png); 
+	position: absolute;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	right:100px;
+}
+
+.hor2 > div{
+	top:200px;
+}
+
+.hor2 > div::before{
+	content: '';
+	background-image: url(../images/white.png); 
+	position: absolute;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	right:100px;
+}
+
+.hor1 > div::after{
+	content: '';
+	background-image: url(../images/white.png); 
+	position: absolute;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	right:0;
+	top:100px;
+}
+
+.hor2 .cell.one{
+	
+	left:100px;
+}
+
+.hor2 .cell.two{
+	left:300px;
+}
+
+.hor2 .cell.three{
+	left:500px;
+}
+
+.hor2 .cell.four{
+	left: 700px;
+}
+
+.hor3 > div{
+	top:400px;
+}
+
+.hor3 > div::after{
+	content: '';
+	background-image: url(../images/black.png); 
+	position: absolute;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	right:0;
+	top:100px;
+}
+
+.hor3 .cell.one{
+	
+	left:100px;
+}
+
+.hor3 .cell.two{
+	left:300px;
+}
+
+.hor3 .cell.three{
+	left:500px;
+}
+
+.hor3 .cell.four{
+	left: 700px;
+}
+
+.hor4 > div{
+	top:600px;
+}
+
+.hor4 > div::before{
+	content: '';
+	background-image: url(../images/black.png); 
+	position: absolute;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	right:100px;
+}
+
+.hor4 > div::after{
+	content: '';
+	background-image: url(../images/black.png); 
+	position: absolute;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	right:0;
+	top:100px;
+}
+
+.hor4 .cell.one{
+	
+	left:100px;
+}
+
+.hor4 .cell.two{
+	left:300px;
+}
+
+.hor4 .cell.three{
+	left:500px;
+}
+
+.hor4 .cell.four{
+	left: 700px;
+}
+
+/*vertical*/
+
+.ver1 .cell.one{
+	
+	top:100px;
+}
+
+.ver1 .cell.two{
+	top:300px;
+}
+
+.ver1 .cell.three{
+	top:500px;
+}
+
+.ver1 .cell.four{
+	top:700px;
+}
+
+.ver2 > div{
+	left:200px;
+}
+.ver2 .cell.one{
+	
+	top:100px;
+}
+
+.ver2 .cell.two{
+	
+	top:300px;
+}
+
+.ver2 .cell.three{
+	top:500px;
+}
+
+.ver2 .cell.four{
+	top:700px;
+}
+
+.ver3 > div{
+	left:400px;
+}
+.ver3 .cell.one{
+	top:100px;
+}
+
+.ver3 .cell.two{
+	top:300px;
+}
+
+.ver3 .cell.three{
+	top:500px;
+}
+
+.ver3 .cell.four{
+	top:700px;
+}
+
+.ver4 > div{
+	left:600px;
+}
+.ver4 .cell.one{
+	top:100px;
+}
+
+.ver4 .cell.two{
+	top:300px;
+}
+
+.ver4 .cell.three{
+	top:500px;
+}
+
+.ver4 .cell.four{
+	top:700px;
+}
+
